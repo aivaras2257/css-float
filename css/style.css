@@ -1,0 +1,37 @@
+
+.container{
+	width: 80%;
+	margin:0px auto;
+	background-color: red;
+
+}
+
+
+div div{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	line-height: 180px;
+}
+
+div div:nth-child(4){
+	background-color: grey;
+
+}
+
+div div:nth-child(2){
+	background-color: yellow;
+	float: left;
+
+}
+div div:nth-child(3){
+	background-color: purple;
+
+}
+div div:nth-child(5){
+	background-color: green;
+
+}
+div div:nth-child(1){
+	background-color: lime;
+	float: right;
